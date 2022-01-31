@@ -1,6 +1,7 @@
 # Middle-Project_food-workshops
 
-A react project where I built a fully functioning website for my family business.
+A react project where I built a fully functioning and responsive website for my family business.
+- Link : https://food-workshops.netlify.app/
 
 ## About the project
 
@@ -15,7 +16,18 @@ Over one week we had to create our own React app by using a couple of things:
 
 ## The site :
 
-On the home page user can make a reservation using the calendar, clicking on a free date event open a reservation form.
+### On the home page user can make a reservation using the calendar, clicking on a free date event open a reservation form.
 
 ![calendar](https://user-images.githubusercontent.com/64411572/151885774-133e630d-054d-44b2-9c8f-dfcfdaa1c350.jpg)
 
+### After logging in or signing up users can leave a feedback about there thier own experience at the food workshop.
+
+![login](https://user-images.githubusercontent.com/64411572/151887465-2e677bd9-b478-4ce1-b090-a98654a1cb86.jpg)
+
+![feedbacks](https://user-images.githubusercontent.com/64411572/151887572-7768ec11-0ac6-4677-9eb1-b809ad0bad36.jpg)
+
+### Information about the workshop users can find on food workshops page, I added a dynamic gallery using css grid. 
+
+![timeline](https://user-images.githubusercontent.com/64411572/151888397-9ba7151d-6792-444e-b072-39ad5cfbcd72.png)
+
+![gallery](https://user-images.githubusercontent.com/64411572/151888459-a625e61f-ca71-47c2-a7d6-09a8d9227edd.jpg)
