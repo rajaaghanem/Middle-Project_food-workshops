@@ -21,7 +21,7 @@ Over one week we had to create our own React app by using a couple of things:
 
 ![calendar](https://user-images.githubusercontent.com/64411572/151885774-133e630d-054d-44b2-9c8f-dfcfdaa1c350.jpg)
 
-### After logging in or signing up users can leave a feedback about there thier own experience at the food workshop.
+### After logging in or signing up users can leave a feedback about thier own experience at the food workshop.
 
 ![login](https://user-images.githubusercontent.com/64411572/151887465-2e677bd9-b478-4ce1-b090-a98654a1cb86.jpg)
 
