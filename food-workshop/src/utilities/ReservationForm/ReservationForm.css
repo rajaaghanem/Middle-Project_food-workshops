@@ -1,0 +1,81 @@
+.reservation-form_container {
+  width: 42vw;
+  min-height: 65vh;
+  background-color: rgba(0, 0, 0, 0.863);
+  text-align: center;
+  color: antiquewhite;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.reservation-form_container div {
+  /* margin: 1rem; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation-form_container h1 {
+  color: #61a17d;
+}
+
+.reservation-form_container label {
+  padding: 1rem;
+  text-align: start;
+}
+
+.reservation-form_container button {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: burlywood;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.reservation-form_container button:hover {
+  background-color: rgb(179, 142, 93);
+}
+
+.chosen-date {
+  color: burlywood;
+}
+
+.disaple-none {
+  display: none;
+}
+
+.exit-form {
+  background: url("https://s3.amazonaws.com/static.graphemica.com/glyphs/i500s/000/002/004/original/0058-500x500.png?1275291789")
+    no-repeat center center/cover;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+@media (max-width: 700px) {
+  .reservation-form_container {
+    width: 80vw;
+    min-height: 50vh;
+  }
+  .reservation-form_container div {
+    font-size: 1.3rem;
+    margin: 0.3rem;
+  }
+  .reservation-form_container h1 {
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 0.2rem;
+  }
+  .reservation-form_container button {
+    font-size: 1.5rem;
+  }
+}

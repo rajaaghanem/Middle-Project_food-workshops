@@ -1,0 +1,33 @@
+.contact-us_container div {
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+  background-color: honeydew;
+  margin: 2rem;
+}
+
+.contact-us_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us_container_facebook {
+  background: url("https://mizbala.com/_uploads/images/2016/06/facebook_logo.jpg")
+    no-repeat center center/cover;
+}
+
+.contact-us_container_instagram {
+  background: url("https://images.unsplash.com/photo-1611162618758-2a29a995354b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGZhY2Vib29rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60")
+    no-repeat center center/cover;
+}
+
+.contact-us_container_whatsapp {
+  background: url("https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
+    no-repeat center center/cover;
+}
+
+.contact-us_container_mail {
+  background: url("https://images.unsplash.com/photo-1637593992672-ed85a851fdc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=862&q=80")
+    no-repeat center center/cover;
+}

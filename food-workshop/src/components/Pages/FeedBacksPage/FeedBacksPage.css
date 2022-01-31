@@ -1,0 +1,105 @@
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  background: url("https://i.ibb.co/mG05VgP/47362116-372542613481843-4854214545230528512-crop.jpg")
+    repeat center center/cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.reviews-container_add {
+  width: 7vw;
+  height: 14vh;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 252, 252);
+  background: url("https://i0.wp.com/www.seekpng.com/png/detail/4-42961_png-plus-sign-clipart-of-plus-sign.png")
+    no-repeat center center/cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.reviews-container_remove {
+  background: url("https://media.istockphoto.com/vectors/black-minus-sign-negative-symbol-vector-id688548090?k=20&m=688548090&s=170667a&w=0&h=xVmB2eSVy3nX8zpGOxzo9loLO1FMglDGUx8vX0arlI0=")
+    no-repeat center center/cover;
+}
+
+.crud-card {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 23vw;
+  height: 49vh;
+  border-radius: 6rem;
+  background-color: rgba(66, 65, 65, 0.836);
+  box-shadow: 0.2rem 0.2rem 0.5rem gray;
+  position: absolute;
+  top: 10rem;
+  left: 49rem;
+}
+
+.crud-card div {
+  margin: 0.4rem;
+}
+
+.crud-card label {
+  display: inline-block;
+  margin: 0.2rem;
+  font-size: 1.3rem;
+  background-color: rgba(255, 248, 220, 0.616);
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  font-weight: bold;
+}
+
+.crud-card textarea,
+.crud-card input {
+  width: 20vw;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.crud-card input {
+  height: 2rem;
+}
+
+.crud-card button {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .reviews-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .reviews-container_add {
+    width: 11vw;
+    height: 6vh;
+  }
+  .crud-card {
+    left: 12vw;
+    width: 64vw;
+    height: 43vh;
+    top: 23vh;
+  }
+}

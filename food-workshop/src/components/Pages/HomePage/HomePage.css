@@ -1,0 +1,24 @@
+.homapage-container {
+  display: flex;
+  justify-content: space-between;
+  /* background: url("https://i.ibb.co/rwgZN0c/47368677-372542236815214-8050146615521968128-n.jpg")
+    no-repeat center center/cover; */
+}
+.homapage-container_calendar {
+  /* padding: 2rem; */
+  margin-right: 2rem;
+}
+
+@media (max-width: 700px) {
+  .homapage-container {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .homapage-container_category {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+  }
+}

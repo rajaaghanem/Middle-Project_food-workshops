@@ -1,0 +1,131 @@
+.feedback-card_container {
+  width: 20vw;
+  height: min-content;
+  border-radius: 6rem;
+  background-color: rgba(255, 255, 255, 0.699);
+  position: relative;
+  margin: 4rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem gray;
+}
+
+.feedback-card_img {
+  width: 5vw;
+  height: 10vh;
+  position: absolute;
+  top: -20%;
+  left: 7.5vw;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.5rem gray;
+  object-fit: cover;
+}
+
+.feedback-card_content {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.feedback-card_content * {
+  margin: 0.5rem;
+  padding: 0.7rem;
+}
+
+.feedback-card_delete,
+.feedback-card_update {
+  width: 3vw;
+  height: 5vh;
+  background: url("https://cdn.dribbble.com/users/592004/screenshots/2953817/___.gif")
+    no-repeat center center/cover;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 1rem 3rem;
+}
+.feedback-card_delete {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.feedback-card_update {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZW_2d2w52KiPFfh6FTFINUKrI9Vycnx-6Lw&usqp=CAU")
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.update-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 15vw;
+  min-height: 13vh;
+  background-color: rgba(222, 184, 135, 0.815);
+  top: 0;
+  right: 0;
+  padding: 1vw 3vw;
+  border-radius: 3rem;
+  align-items: center;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.update-card div {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.update-card label {
+  text-align: center;
+}
+
+.update-card button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  margin: 0.2rem;
+}
+
+.update-card button:hover {
+  background-color: rgb(248, 214, 120);
+  color: rgb(27, 70, 95);
+}
+
+.update-card input,
+.update-card textarea {
+  display: block;
+  min-height: 2rem;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .feedback-card_container {
+    width: 60vw;
+    margin: 1rem;
+    margin-top: 3rem;
+    height: 30vh;
+  }
+  .feedback-card_img {
+    width: 12vw;
+    height: 8vh;
+    top: -10%;
+    left: 23.5vw;
+  }
+  .feedback-card_delete,
+  .feedback-card_update {
+    width: 6vw;
+    height: 5vh;
+  }
+}

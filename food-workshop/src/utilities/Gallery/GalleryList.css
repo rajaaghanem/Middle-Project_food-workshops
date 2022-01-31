@@ -1,0 +1,21 @@
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21vw, 1fr));
+  grid-gap: 0.078125vw 0;
+  grid-auto-rows: 0.78125vw;
+  margin: 1.5625vw;
+  justify-items: center;
+  align-items: center;
+  width: 97vw;
+}
+
+.image-list img {
+  width: 21vw;
+  border-radius: 2.34375vw;
+}
+
+@media (max-width: 700px) {
+  .image-list {
+    grid-auto-rows: 1rem;
+  }
+}

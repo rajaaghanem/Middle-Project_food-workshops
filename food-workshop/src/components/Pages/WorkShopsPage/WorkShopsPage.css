@@ -1,0 +1,27 @@
+.steps_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: url("https://i.ibb.co/dM02z7D/48046371-372543050148466-3904115359279480832-n.jpg")
+    no-repeat center center/cover;
+}
+
+.last-step {
+  display: inline;
+}
+
+.display-none {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .steps_container {
+    grid-template-columns: repeat(2, 40vw);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    grid-gap: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
