@@ -27,7 +27,7 @@ Over one week we had to create our own React app by using a couple of things:
 
 ![feedbacks](https://user-images.githubusercontent.com/64411572/151887572-7768ec11-0ac6-4677-9eb1-b809ad0bad36.jpg)
 
-### Information about the workshop users can find on food workshops page, I added a dynamic gallery using css grid. 
+### Photos and information about the workshops users can find on Cooking workshops page, I added a dynamic gallery using css grid. 
 
 ![timeline](https://user-images.githubusercontent.com/64411572/151888397-9ba7151d-6792-444e-b072-39ad5cfbcd72.png)
 
