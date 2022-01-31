@@ -5,7 +5,7 @@ A react project where I built a fully functioning and responsive website for my 
 
 ## About the project
 
-Over one week we had to create our own React app by using a couple of things:
+Over one week we had to create our own React app, I did it by using a couple of things:
 
 - APIs
 - React Router
