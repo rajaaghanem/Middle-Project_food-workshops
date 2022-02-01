@@ -10,7 +10,7 @@ Over one week we had to create our own React app, I did it by using a couple of 
 - APIs
 - React Router
 - Use Hooks
-- firebase
+- Firebase
 - Moment.js
 - And more!
 
